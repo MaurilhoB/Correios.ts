@@ -1,0 +1,21 @@
+{
+  "input": "./lib/index.ts",
+  "compilerOptions": {
+    "lib": ["ES2021"],
+    "declaration": true,
+    "declarationDir": "./lib",
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es5",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true
+  },
+  "include": ["lib/**/*"],
+  "exclude": ["node_modules", "dist/**/*", "rollup.config.js"]
+}
