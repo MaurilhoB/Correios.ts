@@ -1,13 +1,35 @@
 {
   "name": "correios.ts",
   "version": "1.0.0",
+  "author": "Maurilho B. <maurilhob450@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaurilhoB/Correios.ts"
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.es.js",
   "files": [
     "dist/**/*"
   ],
+  "keywords": [
+    "correios-typescript",
+    "correios.ts",
+    "rastreio",
+    "rastrear",
+    "encomendas",
+    "encomenda",
+    "cep",
+    "ibge",
+    "viacep",
+    "json",
+    "correios-api",
+    "rastreio de pacotes",
+    "rastreamento",
+    "correiosbrasil"
+  ],
   "license": "MIT",
   "scripts": {
+    "prepare": "npm run build",
     "build": "rimraf dist && rollup -c",
     "postbuild": "dts-bundle-generator -o ./dist/index.d.ts ./lib/index.ts"
   },
