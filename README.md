@@ -5,7 +5,7 @@ Módulo simples para rastreio de encomendas e consulta de CEP dos Correios Brasi
 ## Exemplo de uso
 
 ```javascript
-import correios from 'my-project';
+import correios from '@maurilhob/correios.ts';
 
 correios.track('OS591389025BR')
 
